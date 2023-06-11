@@ -1,0 +1,21 @@
+
+@use '@carbon/react/scss/zone';
+@use '@carbon/react' as *;
+
+body {
+  @include theme($g100);
+
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  height: 100vh;
+}

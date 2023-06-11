@@ -1,0 +1,38 @@
+@use '@carbon/react/scss/zone';
+@use '@carbon/react' as *;
+
+.magic-cron__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+
+}
+
+.magic-cron__header {
+  margin-bottom: $spacing-09;
+}
+
+.magic-cron__footer {
+  margin-top: $spacing-09;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.magic-cron__body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cds--form-item {
+  margin-bottom: $spacing-05;
+}
+
+.magic-cron__header-title {
+  margin-bottom: $spacing-02;
+}
